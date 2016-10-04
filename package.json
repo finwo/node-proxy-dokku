@@ -1,0 +1,27 @@
+{
+  "name": "node-proxy-dokku",
+  "version": "1.0.0",
+  "description": "Nodejs HTTP(S) proxy based on node-proxy & environment variables",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/finwo/node-proxy-dokku.git"
+  },
+  "keywords": [
+    "proxy"
+  ],
+  "author": "Robin Bron",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/finwo/node-proxy-dokku/issues"
+  },
+  "homepage": "https://github.com/finwo/node-proxy-dokku#readme",
+  "dependencies": {
+    "forever": "^0.15.2",
+    "http": "0.0.0",
+    "http-proxy": "^1.15.1"
+  }
+}
